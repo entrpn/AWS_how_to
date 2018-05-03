@@ -11,3 +11,5 @@ List of tutorials on how to do certain aws functions
 
 - Create another security group for the ec2 instances. In inbound, select the port you want to open (Ex: 80, 8080) and make the source custom. Enter the security group id of the load balancer instead of an ip address.
 
+- Make sure you open a route to the health checks. In my case, I opened '/' to return 200. With this the lb knows the instance is healthy and routes traffic to it. 
+
