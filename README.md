@@ -5,8 +5,7 @@ List of tutorials on how to do certain aws functions
 
 - Get a free ssl cert from aws here https://console.aws.amazon.com/acm/home.
 
-- I couldn't figure out dns validation so I did email validation. Before that, make sure your can route admin@example.com to your email to accept.
-  -> In name cheap I did this by adding forwarding from admin to my personal email address.
+- I couldn't figure out dns validation so I did email validation. Before that, make sure your can route admin@example.com to your email to accept. Ex: In name cheap I did this by adding forwarding from admin to my personal email address.
   
 - When creating the load balancer, create its own security group with port 443 open.
 
